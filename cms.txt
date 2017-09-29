@@ -1,0 +1,11 @@
+function create_widget_menu()
+{
+	register_nav_menus(array('primary'=>_('primary location')));
+}
+add_action('','');
+
+<nav>
+<<?php
+	wp_nav_menu(array('theme'));
+?>
+</nav>
